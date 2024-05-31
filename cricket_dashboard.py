@@ -7,7 +7,7 @@ import base64
 # Title of the dashboard
 st.title("Cricket Match Insights Dashboard")
 
-# Load data
+# Load data stats
 @st.cache_data
 def load_data():
     each_ball_records_df = pd.read_csv('each_ball_records.csv')
